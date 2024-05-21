@@ -4,20 +4,30 @@
         <title>Dhanya</title>
         <style>
             body{
-                height: 100px; background-color: black;
+                height: 100px; background-color: white;
             }
             .subscribe-button{
-                color:black;
+                background-color: rgb(200, 0, 0);
+                color:white;
                 border:none;
-                height:36px;
-                width:105;
+                padding-left: 20px;
+                padding-top: 10px;
+                padding-right: 20px;
+                padding-bottom: 10px;
                 border-radius:20px;
                 cursor:pointer;
-                margin-right:8px;
+                margin-right:30px;
+                margin-left: 300px;
+                vertical-align: top;
             }
             .subscribe-button:hover{
-                background-color: red;
+                background-color:green;
                 color: white;
+            }
+            .subscribe-button:active {
+                background-color: blue;
+                opacity:0.5;
+
             }
         
             .join-button{
@@ -26,8 +36,10 @@
                 border-style: solid;
                 border-width:1px;
                 color: rgb(41, 118, 211);
-                height:36px;
-                width:62px;
+                padding-left: 30px;
+                padding-top: 20px;
+                padding-right: 30px;
+                padding-bottom: 20px;
                 border-radius:2px;
                 cursor:pointer;
         
@@ -40,18 +52,22 @@
                 background-color:rgb(2, 137, 255);
                 border:none;
                 color:white;
-                height:36px;
-                width:74px;
+                padding-left: 20px;
+                padding-top: 10px;
+                padding-right: 20px;
+                padding-bottom: 10px;
                 border-radius:18px;
                 font-weight:bold;
                 font-size:15px;
                 cursor:pointer;
-                margin-left:8px;
-        
+                margin-left:30px;
+                vertical-align: top;
+                box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
             }
-            footer{
-                margin-bottom: 0px;
+            .tweet-button:hover{
+                opacity: 0.8;
             }
+           
         </style>
     </head>
     <body>
@@ -61,9 +77,9 @@
             SUBSCRIBE
         </button>
         <button class="join-button" id="bye">
-            JOIN
+            JOIN MY CHANNEL
         </button>
-        <button class="tweet-button" id="height">
+        <button class="tweet-button" id="hi">
             TWEET
         </button>
         
@@ -78,7 +94,5 @@
         </div>
         
     </body>
-    <footer style="color: white; background-color: blue;">
-        hello
-    </footer>
+    
 </html>
